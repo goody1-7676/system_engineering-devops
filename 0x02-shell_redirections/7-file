@@ -1,2 +1,2 @@
 #!/bin/bash
-echo "Best School" > "Best_School_file.txt"
+echo "Best School" > $'\\*\\\'"Best School"\\\'\\*\\$\\?*****:)'

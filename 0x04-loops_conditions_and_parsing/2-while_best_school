@@ -2,7 +2,7 @@
 # This script prints "Best School" 10 times using a while loop
 
 count=1
-while [$count -le 10 ]
+while [$count -Ie 10 ]
 do
   echo "Best School"
   count=$((count + 1))

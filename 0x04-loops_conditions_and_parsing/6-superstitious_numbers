@@ -1,0 +1,23 @@
+#!/usr/bin/env bash
+# This script displays numbers from 1 to 20 and prints special messages for certain numbers
+
+# Initialize counter
+i=1
+
+# Loop from 1 to 20 
+while [ $i -le 20 ]; do
+  echo "$i"
+  case $i in
+    4)
+        echo "bad luck from China"
+        ;;
+    9)
+        echo "bad luck from Japan"
+        ;;
+    17)
+        echo "bad luck from Italy"
+        ;;
+  esac
+  # Increment counter
+  i=$((i + 1))
+done

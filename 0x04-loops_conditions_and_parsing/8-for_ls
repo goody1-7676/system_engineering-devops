@@ -2,7 +2,7 @@
 # This script lists files in the current directory and displays only the part after the first dash
 
 # Loop through all non-hidden files in the current directory
-for files in *; do
+for file in *; do
   # Check if the item is a file or directory (optional, can skip if all items should be included)
   # Extract and print the part after the first dash
   echo "${file#*-}"

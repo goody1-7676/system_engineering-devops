@@ -3,7 +3,7 @@
 # Displays "OK" when receiving a SIGTERM signal
 
 # Trap SIGTERM and print "OK"
-trap 'echo "OK'; exit 0' SIGTERM
+trap 'echo "OK"; exit 0' SIGTERM
 
 while true
 do
